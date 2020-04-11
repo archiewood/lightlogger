@@ -6,7 +6,7 @@ cd /home/pi/lightlogger/
 
 git add .
 
-git commit -m "hourly backup `date +'%Y-%m-%d %H'`"
+git commit -m "backup `date +'%Y-%m-%d %H:%M:%S'`hourly `date`"
 
 git push -u origin master
 
